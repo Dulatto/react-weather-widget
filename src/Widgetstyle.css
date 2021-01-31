@@ -1,0 +1,35 @@
+body{
+    color:#fff;
+    font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+}
+.imageStyle{
+    width:100px;
+}
+.bg-blue {
+    background: #25c5df;
+}
+.localtemp{
+    font-size: 30px;
+}
+.listsize{
+    color:#696969!important;
+}
+.blue{
+    background: #74dbec;
+}
+
+@media screen and (max-width: 768px) {
+  .localtemp{
+      font-size: 18px!important;
+  }
+  .imageStyle{
+    width:50px;
+}
+.citysize{
+    font-size: 12px;
+}
+.listsize, .mesuresize, .phrasesize{
+    font-size: 14px;  
+}
+
+  }
