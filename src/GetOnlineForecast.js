@@ -16,7 +16,7 @@ class GetOnlineForecast extends Component {
 
  componentDidMount(){
     
-     fetch("http://api.aerisapi.com/observations/:auto?client_id=EXgUpgEG3hshz599T1lpf&client_secret=yfzeHSLmDtzEx7rXUJ2gzBs3DIRBCQXsJ2ZfQ2ar")
+     fetch("https://api.aerisapi.com/observations/:auto?client_id=EXgUpgEG3hshz599T1lpf&client_secret=yfzeHSLmDtzEx7rXUJ2gzBs3DIRBCQXsJ2ZfQ2ar")
      .then( response =>  response.json() )
      .then(
          (result) => {
