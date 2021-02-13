@@ -65,7 +65,7 @@ class GetOnlineForecast extends Component {
                              {<p className="text-uppercase font-weight-bold text-dark citysize">{this.state.response.place.name}</p>}
                              {<div className="localtemp font-weight-bold" ><span>{this.state.response.ob.tempF} &#8457;</span> / <span className="text-danger">{this.state.response.ob.tempC} &#8451;</span></div>}
                              <hr className="bg-white" />
-                             {<p className="font-weight-bold mb-2 phrasesize ">{this.state.response.ob.weather}</p>}
+                             {<p className="font-weight-bold mb-2 phrasesize text-dark ">{this.state.response.ob.weather}</p>}
                          </div>
                          <div className="col-md-5 col-sm-4">
                              <img className="imageStyle mx-auto d-block" src={path} alt="weather icons" ></img>
