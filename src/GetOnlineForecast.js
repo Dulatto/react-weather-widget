@@ -57,7 +57,7 @@ class GetOnlineForecast extends Component {
          return <div>Loading...</div>
      }else{
          return(
-             <div className="row blue mt-2 py-2">
+             <div className="row bg-blue mt-2 py-2">
                  <div className="col-lg-1 col-md-0"></div>
                  <div className="col-lg-6 col-md-6 col-sm-6">
                      <div className="row">

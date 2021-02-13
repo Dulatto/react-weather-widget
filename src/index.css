@@ -21,3 +21,6 @@ code {
 .weather-data{
   font-family: 'Raleway', sans-serif;
 }
+.bg-blue{
+  background: rgb(69 159 255 / 50%)!important;
+}
