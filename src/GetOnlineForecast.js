@@ -72,10 +72,10 @@ class GetOnlineForecast extends Component {
                          </div>
                      </div>
                  </div>
-                 <div className="col-lg-4 col-md-6 col-sm-6 ">
+                 <div className="col-lg-4 col-md-6 col-sm-6 weather-data ">
                      <div className="row">
                          <div className="col-md-5 col-sm-6">
-                             <ul className="list-unstyled  text-dark">
+                             <ul className="list-unstyled  text-dark ">
                                  <li> Humidity</li>
                                  <li> Winds</li>
                                  <li> Visibility</li>
@@ -85,7 +85,7 @@ class GetOnlineForecast extends Component {
                              </ul>
                          </div>
                          <div className="col-md-7 col-sm-6">
-                             <ul className="list-unstyled mesuresize">
+                             <ul className="list-unstyled mesuresize font-weight-bold">
                                  {<li>{this.state.response.ob.humidity} %</li>}
                                  {<li><span >{this.state.response.ob.windMPH} mph</span>  / <span className="text-danger">{this.state.response.ob.windKPH} kph</span></li>}
                                  {<li><span>{this.state.response.ob.visibilityMI} mi</span> / <span className="text-danger">{(this.state.response.ob.visibilityKM).toFixed(0)} km</span></li>}
